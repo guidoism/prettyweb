@@ -5,10 +5,9 @@ $(document).ready(function() {
         $(this).find("td[id^=td_threadstatusicon_]").next().remove();
         $(this).find("td[id^=td_threadstatusicon_]").remove();
         $(this).find("img").remove();
-        /*$(this).find("td div span").next().remove();*/
         $(this).find("span:contains('Last Page')").remove();
+        $(this).find("td").removeAttr("title");
         $(this).find("a[id^=thread_title_]").replaceWith(function() {
-            /*alert($(this).attr("href").split("=")[-1]);*/
             return "<a href=\"topic/"
                 + $(this).attr("href").split("=").pop()
                 + "/\">"
