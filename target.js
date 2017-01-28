@@ -1,7 +1,5 @@
 (function ($R) {
-
-	$R.compileTime = '';
-
+	
 	$R.path = 'https://guidoism.github.io/prettyweb/';
 	$R.linksPath = 'https://guidoism.github.io/prettyweb/';
 
@@ -62,7 +60,7 @@
 		+	'<html id="html" xmlns="http://www.w3.org/1999/xhtml" class="'+($R.embedded ? 'embedded' : '')+'">'
 		+	'<head>'
 
-		+		'<link rel="stylesheet" href="'+$R.path+'bulk'+$R.compileTime+'.css'+'" type="text/css" />'
+		+		'<link rel="stylesheet" href="'+$R.path+'bulk.css'+'" type="text/css" />'
 
 		+	'</head>'
 		+	'<body id="body">'
@@ -77,7 +75,7 @@
 		+		($R.custom && ($R.customOptions['script'] > '') ? 
 				'<scr'+'ipt type="text/javascript" src="'+$R.customOptions['script']+'"></scr'+'ipt>' : '')
 
-		+		'<scr'+'ipt type="text/javascript" src="'+$R.path+'bulk'+$R.compileTime+'.js'+'"></scr'+'ipt>'
+		+		'<scr'+'ipt type="text/javascript" src="'+$R.path+'bulk.js'+'"></scr'+'ipt>'
 
 		+	'</body>'
 		+	'</html>'
