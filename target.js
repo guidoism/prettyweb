@@ -69,7 +69,7 @@
 
 		+		'<div id="bodyContent"></div>'
 
-		+		'<scr'+'ipt type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></scr'+'ipt>'
+		+		'<scr'+'ipt type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></scr'+'ipt>'
 
 		+		($R.embedded && ($R.embeddedOptions['script'] > '') ? 
 				'<scr'+'ipt type="text/javascript" src="'+$R.embeddedOptions['script']+'"></scr'+'ipt>' : '')
