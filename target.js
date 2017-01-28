@@ -2,8 +2,8 @@
 
 	$R.compileTime = '1304957970';
 
-	$R.path = 'http://readable.tastefulwords.com/';
-	$R.linksPath = 'http://readable.tastefulwords.com/';
+	$R.path = 'https://guidoism.github.io/prettyweb/';
+	$R.linksPath = 'https://guidoism.github.io/prettyweb/';
 
 	$R.win = window;
 
